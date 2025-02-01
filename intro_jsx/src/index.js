@@ -1,5 +1,5 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom";
 
 
 // use of render and styles and attribute
@@ -77,3 +77,24 @@
 //         </div>,
 //         document.getElementById("root")
 //       );
+
+// Inline Css In React
+// ReactDOM.render(
+//     <h1 style={{color:"red"}}>Hello World</h1>,
+//   document.getElementById("root")
+// );
+
+
+// store style as variable
+
+// const h1_style={
+//     color:"red",
+//     fontSize:"12rem"
+// }
+
+// h1_style.color="blue"
+
+// ReactDOM.render(
+//     <h1 style={h1_style}>Hello World</h1>,
+//   document.getElementById("root")
+// );
