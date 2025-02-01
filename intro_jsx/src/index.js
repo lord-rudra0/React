@@ -20,13 +20,16 @@ import ReactDOM from "react-dom";
 // use of variable in js code 
 
 
-const name = "rudra";
-const lucy = 17;
-
-ReactDOM.render(
-  <div>
-    <h1>Hello {name} </h1>
-    <p1>My lucky number is {lucy}</p1>
-  </div>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//     <div>
+//       <h1>Hello {fname + " " + mname + " " + lname} </h1>
+  
+//       <h1>
+//         Hello {fname} {mname} {lname}
+//       </h1>
+  
+//       <h1>Hello {`${fname} ${mname} ${lname}`}</h1>
+  
+//       <p1>My lucky number is {lucy}</p1>
+//     </div>,
+//     document.getElementById("root")
