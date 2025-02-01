@@ -4,17 +4,17 @@ import ReactDOM from "react-dom";
 
 // use of render
 
-// ReactDOM.render(
-//   <div>
-//     <h1>this is h1</h1>
-//     <ul>
-//       <li>list1</li>
-//       <li>list2</li>
-//       <li>list3</li>
-//     </ul>
-//   </div>,
-//   document.getElementById("root")
-// );
+ReactDOM.render(
+  <div>
+    <h1 className="Heading">this is h1</h1>
+    <ul>
+      <li>list1</li>
+      <li>list2</li>
+      <li>list3</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
 
 
 // use of variable in js code 
@@ -48,8 +48,8 @@ import ReactDOM from "react-dom";
 //     ,document.getElementById("root")
 // )
 //The paragraphs should say:
-//Created by YOURNAME.
-//Copyright CURRENTYEAR.
+//Created by YOUR NAME.
+//Copyright CURRENT YEAR.
 //E.g.
 //Created by Angela Yu.
 //Copyright 2019.
