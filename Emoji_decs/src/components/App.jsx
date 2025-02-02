@@ -16,7 +16,7 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>
-      {emojipedia.map(CreateEmoji)}
+      <dl className="dictionary">{emojipedia.map(CreateEmoji)}</dl>
       {/* <dl className="dictionary">
         <div className="term">
           <dt>
