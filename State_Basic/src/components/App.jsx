@@ -1,9 +1,10 @@
 import React from "react";
 
-var isDone = false;
+let isDone = false;
 
 function strike() {
   isDone = true;
+  console.log("button clicked")
 }
 
 function unStrike() {
@@ -14,8 +15,8 @@ function App() {
   return (
     <div>
       <p style={isDone ? { textDecoration: "line-through" } : null}>Buy milk</p>
-      <button onClick={strike}>Change to strike through</button>
-      <button onClick={unStrike}>Change back</button>
+      <button type="button" onClick={strike}>Change to strike through</button>
+      <button type="button" onClick={unStrike}>Change back</button>
     </div>
   );
 }
