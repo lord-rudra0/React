@@ -19,11 +19,15 @@ function increase()
   
 }
 
+function decrease(){
+  setCount(count-1)
+}
 // console.log("I got clicked",num);
 
   return  ( <div className="container">
   <h1>{count}</h1>
   <button onClick={increase} type="button">+</button>
+  <button onClick={decrease} type="button">-</button>
 </div>);
 }
 
