@@ -6,6 +6,7 @@ const emojipedia = [
     meaning:
       "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
   },
+  
   {
     id: 2,
     emoji: "🙏",
