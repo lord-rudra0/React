@@ -11,5 +11,5 @@ function triplepi()
 }
 export default pi;
 
-export{doublepi,triplepi}
+export {doublepi,triplepi}
 
